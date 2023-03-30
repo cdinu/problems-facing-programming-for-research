@@ -7,7 +7,8 @@
 \setbeamertemplate{headline}{}
 
 \title{Problems Faced in Programming for Research}
-\subtitle{Causes, Effects and Some Strategies}
+\subtitle{Causes, Effects and Some Strategies\\
+\scriptsize (v0.1.0)}
 \author{Cristian Dinu}
 \date{March 2023}
 \begin{document}
@@ -24,46 +25,74 @@
     \item Tough stakeholder management
     \item Bad planning
     \end{itemize}
-\item But I will talk about problems specific to programming for research
+\item But I will talk about problems specific to programming for research in my non-Large Hadron Collider experience
 \end{itemize}
 
 \end{frame}
 
 \begin{frame}
-\frametitle{1. Both research and coding are hard}
-So that one either can do well one or the other
+\frametitle{Both research and coding are hard}
+So that one individual can only do well one or the other
 \begin{itemize}
-\item Effects: It is challenging to collect the requirement. Misunderstandings and friction happen between the researcher and the coder.
-\item Strategies: Iterate fast, show and validate early, using friendly formats (Jupyter, Excel), avoid computer/programming slang
+\item Effects:
+    \begin{itemize}
+        \item It difficult to collect requirements and understand the problem domain
+        \item (civilised) Friction and frustration between the researcher and the coder.
+        \item Researchers stuck with old tools and methods (Excels with 100 sheets and colour codes)
+    \end{itemize}
+\item Strategies: "Embed" the developer in the team. Iterate fast, show and validate early, using friendly formats (Jupyter, Excel), avoid computer/programming slang, assume educator role
 \end{itemize}
 \end{frame}
 
-
 \begin{frame}
-\frametitle{2. The "Paper" is more important than the code}
-The incentives and priorities seem often wrong. Recognition, too.
+\frametitle{Research projects are, well... research}
+Requirements, goals, methods, change continuously as they progress. Ideas come up, real life is muddy, data is unstructured. 
 \begin{itemize}
-\item Effects: Quick and dirty duct-tape coding, neglected documentation, testing, maintainability, and reproducibility
-\item Strategies: Recognise software contributions, emphasize code quality, make code as important as the paper
+\item Effects: Nearly impossible to estimate and meet deadlines, frustration as a lot of time needs to be spent on menial task
+\item Strategies: Prepare "plan B"-s, embrace changes, accept this is life, be happy with it, as it means progress.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{The "Paper" is more important than the code}
+The incentives and priorities are conflicting. Recognition not always given.
+\begin{itemize}
+\item Effects: Quick and dirty, duct-tape coding, neglected documentation, testing, maintainability, security and ethics reviews, and reproducibility
+\item Strategies: Recognise software contributions, emphasise code quality, make code as important as the paper
 \end{itemize}
 \end{frame}
 
 \begin{frame}
-\frametitle{3. People who code seem "in transit" to better roles or self-taught\ldots}
+\frametitle{People who code seem "in transit" to better roles or self-taught\ldots}
 I saw most of the code is done "for free" by masters or PhD students or enthusiastic self-taught young academics.
 \newline
 \begin{itemize}
-    \item Effects: No good practices, inconsistent code quality, slow skills improvement
+    \item Effects: Lack of good practices, inconsistent code quality, slow skills improvement. Lots of technical debt
     \item Strategies: Educate beyond coding -- e.g. source control, documentation, and establish some standards (e.g. everything goes on departments' GitHub account, no Excel allowed)
 \end{itemize}
 \end{frame}
 
 \begin{frame}
-\frametitle{4. \ldots because good developers are expensive and industry pays well}
+\frametitle{\ldots because good developers are expensive and industry pays well}
 Also, it's unfair to pay a developer three times as much as a researcher, just because the IT pays well.
 \begin{itemize}
 \item Effects: Difficulty attracting and retaining skilled engineers, reliance on inexperienced developers
 \item Strategies: Allow people to be paid directly from grants, or projects with the industry. 
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Ethics, Security, and Privacy are a second thought}
+In research programming, ensuring ethical conduct, maintaining security, and respecting privacy are crucial, but they are often overlooked or neglected.
+\begin{itemize}
+\item Effects:
+\begin{itemize}
+    \item Inadequate protection of sensitive data or private information
+    \item Unintended consequences of research findings or technology use
+    \item Misuse of research results or tools for malicious purposes
+\end{itemize}
+\item Strategies: educate (tell scary stories), create checklists so that important issues are not missed, check where code and data are stored and deployed.
 \end{itemize}
 \end{frame}
 
@@ -79,8 +108,9 @@ Also, it's unfair to pay a developer three times as much as a researcher, just b
 \frametitle{Conclusions}
 \begin{itemize}
 \item Programming for research shares difficult problems with "general" programming 
-\item Competition with the industry is unfair [compared with academia]
+\item Competition with the industry is unfair [compared to academia]
 \item Hopefully a "software is an investment not an expense" mindset will be adopted by the majority of people involved in research
+\item But keep a WindowsXP machine handy. You might need it for next project.
 \end{itemize}
 \end{frame}
 
