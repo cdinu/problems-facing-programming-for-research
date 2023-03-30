@@ -1,0 +1,87 @@
+\documentclass[14pt, aspectratio=169]{beamer}
+\usepackage[utf8]{inputenc}
+\usetheme{default}
+\useoutertheme{infolines}
+\setbeamertemplate{navigation symbols}{}
+% \usecolortheme{owl}
+\setbeamertemplate{headline}{}
+
+\title{Problems Faced in Programming for Research}
+\subtitle{Causes, Effects and Some Strategies}
+\author{Cristian Dinu}
+\date{March 2023}
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Introduction}
+\begin{itemize}
+\item Scientific programming is still programming
+\item The main issues of general programming still apply
+    \begin{itemize}
+    \item Unclear requirements
+    \item Tough stakeholder management
+    \item Bad planning
+    \end{itemize}
+\item But I will talk about problems specific to programming for research
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{1. Both research and coding are hard}
+So that one either can do well one or the other
+\begin{itemize}
+\item Effects: It is challenging to collect the requirement. Misunderstandings and friction happen between the researcher and the coder.
+\item Strategies: Iterate fast, show and validate early, using friendly formats (Jupyter, Excel), avoid computer/programming slang
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{2. The "Paper" is more important than the code}
+The incentives and priorities seem often wrong. Recognition, too.
+\begin{itemize}
+\item Effects: Quick and dirty duct-tape coding, neglected documentation, testing, maintainability, and reproducibility
+\item Strategies: Recognise software contributions, emphasize code quality, make code as important as the paper
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{3. People who code seem "in transit" to better roles or self-taught\ldots}
+I saw most of the code is done "for free" by masters or PhD students or enthusiastic self-taught young academics.
+\newline
+\begin{itemize}
+    \item Effects: No good practices, inconsistent code quality, slow skills improvement
+    \item Strategies: Educate beyond coding -- e.g. source control, documentation, and establish some standards (e.g. everything goes on departments' GitHub account, no Excel allowed)
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{4. \ldots because good developers are expensive and industry pays well}
+Also, it's unfair to pay a developer three times as much as a researcher, just because the IT pays well.
+\begin{itemize}
+\item Effects: Difficulty attracting and retaining skilled engineers, reliance on inexperienced developers
+\item Strategies: Allow people to be paid directly from grants, or projects with the industry. 
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{More and more blackboxes (libraries, AI models)}
+\begin{itemize}
+\item Effects: Reduced transparency, harder debugging, validation issues, over-reliance on external libraries
+\item Strategies: Encourage open-source development, require explainable AI, prioritize validation and testing
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Conclusions}
+\begin{itemize}
+\item Programming for research shares difficult problems with "general" programming 
+\item Competition with the industry is unfair [compared with academia]
+\item Hopefully a "software is an investment not an expense" mindset will be adopted by the majority of people involved in research
+\end{itemize}
+\end{frame}
+
+\end{document}
